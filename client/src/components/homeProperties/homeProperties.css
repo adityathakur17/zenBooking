@@ -1,0 +1,46 @@
+.hp{
+width: 100%;
+max-width: 1024px;
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+.hpItem{
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.hpImg{
+    width: 100%;
+}
+
+.hpName{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.hpCity{
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.hpPrice{
+    font-weight: 500;
+}
+
+.hpRating>button{
+    background-color: #003588;
+    color: #fff;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.hpRating>span{
+    font-size: 14px;
+}

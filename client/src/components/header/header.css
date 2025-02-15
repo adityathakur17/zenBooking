@@ -1,15 +1,22 @@
 .header{
+    
     background-color: #003580;
     color: white;
     display: flex;
     justify-content: center;
     position: relative;
+    
 }
 
 .headerContainer{
     width: 100%;
     max-width: 1024px;
     margin: 20px 0px 100px 0px;
+
+}
+
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px ;
 }
 
 .headerList{
@@ -46,7 +53,7 @@
 }
 
 .headerSearch{
-    height: 30px;
+    height: 60px;
     background-color: white;
     border: 3px solid #febb02;
     display: flex;
@@ -83,9 +90,11 @@
 .date{
     position: absolute;
     top: 50px;
+    z-index: 2;
 }
 
 .options{
+    z-index: 2;
     position: absolute;
     top: 50px;
     background-color: white;
@@ -114,4 +123,11 @@
     width: 30px;
     height: 30px;
     border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.optionCounterButton:disabled{
+    cursor: not-allowed;
 }
