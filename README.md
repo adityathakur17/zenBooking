@@ -21,6 +21,6 @@ Welcome to the **zenBooking**! This project is an online platform designed to he
 1. Clone the repository:
    ```bash
    git clone https://github.com/adityathakur17/zenBooking.git
-   cd booking-platform
+   cd zenBooking
    npm install
    npm start
