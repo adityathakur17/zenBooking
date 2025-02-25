@@ -1,6 +1,7 @@
 import React from 'react'
 import "./homeProperties.css"
 function HomeProperties() {
+  
   return (
     <div className='hp'>
       <div className='hpItem'>
