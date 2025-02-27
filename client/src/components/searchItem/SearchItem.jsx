@@ -1,7 +1,7 @@
 import React from 'react'
 import "./searchItem.css"
 
-function SearchItem() {
+function SearchItem(item) {
   return (
     <div className='searchItem'>
         <img 

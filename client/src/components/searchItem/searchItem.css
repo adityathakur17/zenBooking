@@ -102,3 +102,9 @@
     cursor: pointer;
     border-radius: 3px;
 }
+
+.siCancelOpSubtitle{
+    font-size: small;
+    color: #008009;
+
+}
